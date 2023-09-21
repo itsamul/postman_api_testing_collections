@@ -99,6 +99,12 @@ Endpoint: POST /api/register<br>
 Description: Simulate user registration by sending a POST request with user registration data in the request body. This endpoint does not perform actual user registration.<br>
 Example: https://reqres.in/api/register<br>
 
+Screenshots:
+![Create User](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Create%20User.PNG?raw=true)
+![List of User](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/List%20of%20User.PNG?raw=true)
+![Single User](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Single%20User.PNG?raw=true)
+![REgister User Unsuccessful](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Register%20User%20Unsuccessful.PNG?raw=true)
+
 # How use Postman, Newman, and newman-reporter-htmlextra together for API testing:
 
 1. Create and Organize API Tests in Postman:<br>
@@ -115,6 +121,9 @@ Example: https://reqres.in/api/register<br>
    ```
    newman run your-collection.json -r htmlextra
    ```
+   ![Newman Execution](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/NewmanExecution.PNG?raw=true)
+   ![Newman Execution part 2](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/NewmanExecution_2.PNG?raw=true)
+   
    This command will rund tests and generates HTML reports using newman-reporter-htmlextra.<br>
    Report: ([Reqres project-2023-09-17-21-07-33-017-0.html](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/newman/Reqres%20project-2023-09-17-21-07-33-017-0.html))<br>
 
@@ -122,4 +131,4 @@ Example: https://reqres.in/api/register<br>
    Open the generated HTML reports in your web browser to review the test results.<br>
    Report Image: ([Postman-Reqres-Project-newman-Summary-Report.png](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Postman-Reqres-Project-newman-Summary-Report.png))<br>
    Report Image: ([Postman-Reqres-Project-newman-All-Report-2.png](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Postman-Reqres-Project-newman-All-Report-2.png))<br>
-                      
+   ![HTML Summary Report](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Postman-Reqres-Project-newman-Summary-Report.png?raw=true)                   
