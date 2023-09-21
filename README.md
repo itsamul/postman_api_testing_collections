@@ -49,6 +49,7 @@ newman-reporter-htmlextra -v
 ```
 These commands should display the installed versions of Newman and the HTML Extra reporter.
 
+![Verifying Installed applications](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Installation.png?raw=true)
 
 # Application under Test:
 
