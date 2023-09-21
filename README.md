@@ -106,13 +106,17 @@ Example: https://reqres.in/api/register<br>
 
 1. Export the Postman Collection/Enviornment/Global as json file:<br>
    Export the Postman Collection/Enviornment/Global as a JSON file. These files will be used by Newman for test execution.<br>
-
+   Collection file : ([Reqres project.postman_collection.json](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/Reqres%20project.postman_collection.json))<br>
+   Environment file: ([Env_QA.postman_environment.json](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/Env_QA.postman_environment.json))<br>
+   
 1. Run API Tests with Newman and Generate HTML Reports:<br>
    Executed the API tests using Newman from the command line. Specified the Postman collection and used the newman-reporter-htmlextra reporter.<br>
    ```
    newman run your-collection.json -r htmlextra
    ```
    This command will rund tests and generates HTML reports using newman-reporter-htmlextra.<br>
+   Report: ([Reqres project-2023-09-17-21-07-33-017-0.html](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/newman/Reqres%20project-2023-09-17-21-07-33-017-0.html))<br>
 
 1. Review and Share HTML Reports:<br>
    Open the generated HTML reports in your web browser to review the test results.<br>
+   Report Image: ([Postman-Reqres-Project-newman-Summary-Report.png](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Postman-Reqres-Project-newman-Summary-Report.png))<br>
