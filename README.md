@@ -120,3 +120,5 @@ Example: https://reqres.in/api/register<br>
 1. Review and Share HTML Reports:<br>
    Open the generated HTML reports in your web browser to review the test results.<br>
    Report Image: ([Postman-Reqres-Project-newman-Summary-Report.png](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Postman-Reqres-Project-newman-Summary-Report.png))<br>
+   Report Image: ([Postman-Reqres-Project-newman-All-Report-2.png](https://github.com/itsamul/postman_api_testing_collections/blob/master/Reqres_Project/images/Postman-Reqres-Project-newman-All-Report-2.png))<br>
+                      
